@@ -1,6 +1,6 @@
 import re
 
-with open("input.txt") as file:
+with open("test.txt") as file:
     instructions = file.read()
 
 pattern = ['mul\([0-9]{1,3},[0-9]{1,3}\)', 'do\(\)', "don't\(\)"]
